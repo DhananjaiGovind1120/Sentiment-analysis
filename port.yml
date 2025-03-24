@@ -1,0 +1,9 @@
+# enrichService.yml
+
+- identifier: "Sentiment-analysis"
+  blueprint: service 
+  properties:
+    type: "backend"
+    lifecycle: "Production"
+  relations:
+    domain: "payment"
